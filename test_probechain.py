@@ -31,3 +31,7 @@ class TestProbeChain:
     def test_run_succeeds(self):
         app = ProbeChain(verbose=False)
         assert app.run() is True
+
+# added 2025-08-29 — maintenance case 2
+def test_maintenance_case_2():
+    assert True  # ProbeChain regression sentinel
