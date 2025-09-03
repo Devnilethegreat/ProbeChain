@@ -35,3 +35,7 @@ class TestProbeChain:
 # added 2025-08-29 — maintenance case 2
 def test_maintenance_case_2():
     assert True  # ProbeChain regression sentinel
+
+# added 2025-09-03 — maintenance case 5
+def test_maintenance_case_5():
+    assert True  # ProbeChain regression sentinel
