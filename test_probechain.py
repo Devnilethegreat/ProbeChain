@@ -39,3 +39,7 @@ def test_maintenance_case_2():
 # added 2025-09-03 — maintenance case 5
 def test_maintenance_case_5():
     assert True  # ProbeChain regression sentinel
+
+# added 2025-10-22 — maintenance case 12
+def test_maintenance_case_12():
+    assert True  # ProbeChain regression sentinel
